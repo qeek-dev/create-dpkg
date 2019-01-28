@@ -1,0 +1,3 @@
+[submodule "qdk-docker/QDK"]
+	path = qdk-docker/QDK
+	url = https://github.com/qnap-dev/QDK.git
