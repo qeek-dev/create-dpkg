@@ -61,7 +61,6 @@ check_command() {
 }
 
 exec_err() {
-	echo "$@"
 	"$@"	  # execute the command
 	STATUS=$? # get status of execution
 	if [ $STATUS -ne 0 ]; then
